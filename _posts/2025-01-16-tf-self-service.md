@@ -6,7 +6,6 @@ categories:
 tags:
   - Terraform
   - IaC
-  - Vault
   - IDP
 ---
 
