@@ -1,5 +1,5 @@
 ---
-title: "Self-Service IDP with Terraform"
+title: "Structuring a Self-Service Platform with Terraform"
 last_modified_at: 
 categories:
   - Blog
@@ -12,7 +12,9 @@ tags:
 
 I recently read an excellent blog post on [Building Self-Service Platforms with Terraform at Scale ](https://sunil-tailor.medium.com/building-self-service-platforms-with-terraform-at-scale-396c208a808d) and found it really well written, thoughtful, useful, and engaging. This is a topic I've spent a lot of time recently thinking about, as it comes up often in my role as a Resident Solutions Architect at [HashiCorp](https://hashicorp.com). 
 
-The author does an excellent job of framing the discussion around self-service Internal Developer Platforms, describing the need for an IDP and how it’s used. The key insight he has is that creating an ___abstraction layer___ (in this case a [YAML](https://yaml.org/) data model) between Terraform and an application team making an infrastructure change request can have a number of benefits. Many of the customers I work with have found that it’s not practical to ask application teams to interact with an infrastructure change management system via Terraform. A few highly skilled teams might be able to accommodate this request, but at most large enterprises, teams like that are the exception rather than the rule.
+The author does an excellent job of framing the discussion around self-service Internal Developer Platforms, describing the need for an IDP and how it’s used. The key insight he has is that creating an ___abstraction layer___ (in this case a [YAML](https://yaml.org/) data model) between Terraform and an application team making an infrastructure change request can have a number of benefits. 
+
+Many of the customers I work with have found that it’s not practical to ask application teams to interact with an infrastructure change management system via Terraform. A few highly skilled teams might be able to accommodate this request, but at most large enterprises, teams like that are the exception rather than the rule.
 
 ![Fig. 1 - Confused by Terraform](/assets/images/TF%20Confused.png)
 <div style="text-align: center; font-size: 14px;">Fig. 1 - Confused by Terraform</div>
