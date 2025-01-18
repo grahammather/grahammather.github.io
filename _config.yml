@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Graham Mather"
   avatar : "/assets/images/bio-photo.jpeg"
-  bio    : "Resident Technologist"
+  bio    : "Resident Technologist / Process Architect"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
